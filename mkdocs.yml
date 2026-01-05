@@ -1,0 +1,22 @@
+site_name: Recipe Wiki
+site_url: https://solfood.github.io/recipes-wiki/
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - toc.follow
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Recipes:
+      - Beef:
+          - Award-Worthy Tri-Tip Chili: recipes/beef/tri-tip-chili.md
