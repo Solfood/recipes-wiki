@@ -1,4 +1,4 @@
-# Mashed Potato Fries
+# Potato Croquettes
 
 **Yield:** ~2–4 servings  
 **Texture target:** crisp exterior, fluffy interior  
