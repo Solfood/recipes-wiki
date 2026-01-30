@@ -22,7 +22,16 @@ Static page hosting favorite recipes. Built with [MkDocs](https://www.mkdocs.org
     mkdocs gh-deploy
     ```
 
-## Features
-*   **Interactive Ingredients:** Check off items as you shop or cook.
-*   **Dark/Light Mode:** Automatically syncs with your system preference.
-*   **Search:** Instant search across all recipes.
+## Contributing (Adding Recipes)
+
+The easiest way to add a new recipe is to use the generator script. This ensures the formatting is correct.
+
+```bash
+./new_recipe.sh "Recipe Name" category
+```
+
+**Example:**
+```bash
+./new_recipe.sh "Spicy Tacos" mexican
+```
+This will create `docs/recipes/mexican/spicy-tacos.md` pre-filled with the template.
