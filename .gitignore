@@ -38,3 +38,6 @@ venv.bak/
 .vscode/
 .idea/
 
+
+# Generated Content
+docs/recipes/*/index.md

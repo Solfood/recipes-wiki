@@ -26,4 +26,5 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install -r requirements.txt
+      - run: python scripts/generate_category_indexes.py
       - run: mkdocs gh-deploy --force
