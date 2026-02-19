@@ -1,15 +1,11 @@
----
-title: Shrimp Salad
-description: Delicious Shrimp Salad recipe with Old Bay seasoning and fresh herbs.
----
-
 # Shrimp Salad
+*Delicious Shrimp Salad recipe with Old Bay seasoning and fresh herbs.*
 
-<div class="recipe-meta">
-  <span class="meta-item">⏱️ **Prep:** 20 mins</span>
-  <span class="meta-item">🍳 **Cook:** 5 mins</span>
-  <span class="meta-item">🍽️ **Yield:** 4-6</span>
-</div>
+!!! info "Recipe Details"
+    *   **Yield:** ** 4-6
+    *   **Prep time:** ** 20 mins
+    *   **Texture target:** TBD
+    *   **Cook time:** ** 5 mins
 
 ## Ingredients
 
@@ -32,7 +28,7 @@ description: Delicious Shrimp Salad recipe with Old Bay seasoning and fresh herb
 - [ ] 2 teaspoons Dijon mustard
 - [ ] Salt and pepper to taste
 
-## Instructions
+## Method
 
 ### Poaching the shrimp
 1. Mix the shrimp well with the baking soda, salt, and Old Bay seasoning and set aside. Wait 15-20 minutes until boiling. While the shrimp are sitting in the brine, mix the sauce.

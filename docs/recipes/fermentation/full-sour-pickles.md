@@ -1,15 +1,11 @@
----
-title: Full-Sour Pickles (Katz's Deli Style)
-description: Delicious Full-Sour Pickles (Katz's Deli Style) recipe
----
-
 # Full-Sour Pickles (Katz's Deli Style)
+*Delicious Full-Sour Pickles (Katz's Deli Style) recipe*
 
-<div class="recipe-meta">
-  <span class="meta-item">⏱️ **Prep:** ~20 mins</span>
-  <span class="meta-item">🍳 **Cook:** 0 mins (Fermentation: 10-14 days)</span>
-  <span class="meta-item">🍽️ **Yield:** 2 Quart Jars</span>
-</div>
+!!! info "Recipe Details"
+    *   **Yield:** ** 2 Quart Jars
+    *   **Prep time:** ** ~20 mins
+    *   **Texture target:** TBD
+    *   **Cook time:** ** 0 mins (Fermentation: 10-14 days)
 
 ## Ingredients
 **For 1 lb cucumbers (split between 2 jars):**
@@ -27,7 +23,7 @@ description: Delicious Full-Sour Pickles (Katz's Deli Style) recipe
 - [ ] 2 cups non-chlorinated water
 - [ ] 1.5 tbsp kosher or sea salt (without iodine or anti-caking agents)
 
-## Instructions
+## Method
 ### Step 1: Sterilize Jars and Equipment
 1. Wash jars, lids, airlocks, and any weights in **hot soapy water**.
 2. Rinse well.

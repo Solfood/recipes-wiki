@@ -68,26 +68,31 @@ def main():
         console.print(f"[red]Error: {filename} already exists![/red]")
         sys.exit(1)
 
-    template = f"""---
-title: {title}
-description: Delicious {title} recipe
----
+    template = f"""# {title}
+*{title}*
 
-# {title}
-
-<div class="recipe-meta">
-  <span class="meta-item">⏱️ **Prep:** {prep_time}</span>
-  <span class="meta-item">🍳 **Cook:** {cook_time}</span>
-  <span class="meta-item">🍽️ **Yield:** {servings}</span>
-</div>
+!!! info "Recipe Details"
+    *   **Yield:** {servings}
+    *   **Prep time:** {prep_time}
+    *   **Cook time:** {cook_time}
 
 ## Ingredients
+
+### Primary
 - [ ] Item 1
 - [ ] Item 2
 
-## Instructions
-1. Step one...
-2. Step two...
+## Method
+
+### 1. First Step
+Step description...
+
+### 2. Second Step
+Step description...
+
+!!! tip "Chef's Notes"
+    *   Note 1
+    *   Note 2
 
 ---
 *Tags: #{cat_slug}*

@@ -1,15 +1,11 @@
----
-title: Honey & Orange Glazed Salmon with Ginger
-description: Delicious Honey & Orange Glazed Salmon with Ginger recipe
----
-
 # Honey & Orange Glazed Salmon with Ginger
+*Delicious Honey & Orange Glazed Salmon with Ginger recipe*
 
-<div class="recipe-meta">
-  <span class="meta-item">⏱️ **Prep:** 30 mins (marinate) + prep</span>
-  <span class="meta-item">🍳 **Cook:** 12-15 mins</span>
-  <span class="meta-item">🍽️ **Yield:** 4-6 servings</span>
-</div>
+!!! info "Recipe Details"
+    *   **Yield:** ** 4-6 servings
+    *   **Prep time:** ** 30 mins (marinate) + prep
+    *   **Texture target:** TBD
+    *   **Cook time:** ** 12-15 mins
 
 ## Ingredients
 - [ ] 1.5 lb salmon filets (with skin or without)
@@ -21,7 +17,7 @@ description: Delicious Honey & Orange Glazed Salmon with Ginger recipe
 - [ ] 1 tbsp olive oil
 - [ ] Optional: 1 tsp ground coriander for warmth and depth
 
-## Instructions
+## Method
 1. Place salmon filets in an oven-safe dish.
 2. Whisk together the citrus zest/juice, ginger, honey, salt, pepper, olive oil, and coriander.
 3. Pour the glaze over the salmon filets, coating them evenly.

@@ -1,15 +1,11 @@
----
-title: Lacto-Fermented Red Onions
-description: Delicious Lacto-Fermented Red Onions recipe
----
-
 # Lacto-Fermented Red Onions
+*Delicious Lacto-Fermented Red Onions recipe*
 
-<div class="recipe-meta">
-  <span class="meta-item">⏱️ **Prep:** ~15 mins</span>
-  <span class="meta-item">🍳 **Cook:** 0 mins (Fermentation: 5-7 days)</span>
-  <span class="meta-item">🍽️ **Yield:** 1 Quart Jar</span>
-</div>
+!!! info "Recipe Details"
+    *   **Yield:** ** 1 Quart Jar
+    *   **Prep time:** ** ~15 mins
+    *   **Texture target:** TBD
+    *   **Cook time:** ** 0 mins (Fermentation: 5-7 days)
 
 ## Ingredients
 **For 1 quart jar:**
@@ -25,7 +21,7 @@ description: Delicious Lacto-Fermented Red Onions recipe
 - [ ] 1 tbsp kosher salt (slightly less salty than the cucumbers — ~2% solution is better for onions)
 > You can also reuse the leftover brine if it’s fresh and not slimy — just top off with more water and salt if needed.
 
-## Instructions
+## Method
 1. **Slice onions** and pack into the jar with any desired spices.
 2. **Add brine** until onions are submerged.
 3. **Weigh them down** — they float more than cucumbers! A fermentation weight or brine-filled zip-top bag works.
