@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os
+import subprocess
 import sys
 import datetime
 from rich.console import Console
@@ -104,12 +105,9 @@ Step description...
     console.print(f"\n✅ [bold green]Recipe Created![/bold green] {filepath}")
     
     # 5. Open in Editor
-    # Try VS Code, then standard open
-    try:
-        if os.system(f"code '{filepath}'") != 0:
-            os.system(f"open '{filepath}'")
-    except:
-        pass
+    result = subprocess.run(["code", filepath], check=False)
+    if result.returncode != 0:
+        subprocess.run(["open", filepath], check=False)
 
 if __name__ == "__main__":
     main()
