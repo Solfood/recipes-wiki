@@ -38,9 +38,9 @@ def main():
         print("No recipes directory found.")
         return
 
-    categories = [d for d in os.listdir(RECIPES_DIR) 
-                  if os.path.isdir(os.path.join(RECIPES_DIR, d)) and not d.startswith('.')]
-    
+    categories = sorted(d for d in os.listdir(RECIPES_DIR)
+                        if os.path.isdir(os.path.join(RECIPES_DIR, d)) and not d.startswith('.'))
+
     print(f"Found categories: {categories}")
 
     for cat in categories:
@@ -62,7 +62,7 @@ def main():
 
         index_path = os.path.join(cat_dir, "index.md")
         with open(index_path, "w") as f:
-            f.write("\n".join(content))
+            f.write("\n".join(content) + "\n")
         
         print(f"✅ Generated index for {cat}: {len(recipes)} recipes.")
 

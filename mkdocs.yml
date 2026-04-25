@@ -53,6 +53,5 @@ markdown_extensions:
 
 plugins:
   - search
-  # - git-revision-date-localized # Uncomment if you want last updated dates (needs git history)
+  - git-revision-date-localized
 
-  
