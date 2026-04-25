@@ -2,10 +2,10 @@
 *Delicious Shrimp Salad recipe with Old Bay seasoning and fresh herbs.*
 
 !!! info "Recipe Details"
-    *   **Yield:** ** 4-6
-    *   **Prep time:** ** 20 mins
+    *   **Yield:** 4-6
+    *   **Prep time:** 20 mins
     *   **Texture target:** TBD
-    *   **Cook time:** ** 5 mins
+    *   **Cook time:** 5 mins
 
 ## Ingredients
 

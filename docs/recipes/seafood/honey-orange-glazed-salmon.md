@@ -2,10 +2,10 @@
 *Delicious Honey & Orange Glazed Salmon with Ginger recipe*
 
 !!! info "Recipe Details"
-    *   **Yield:** ** 4-6 servings
-    *   **Prep time:** ** 30 mins (marinate) + prep
+    *   **Yield:** 4-6 servings
+    *   **Prep time:** 30 mins (marinate) + prep
     *   **Texture target:** TBD
-    *   **Cook time:** ** 12-15 mins
+    *   **Cook time:** 12-15 mins
 
 ## Ingredients
 - [ ] 1.5 lb salmon filets (with skin or without)

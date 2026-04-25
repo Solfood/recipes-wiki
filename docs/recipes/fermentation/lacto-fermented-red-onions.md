@@ -2,10 +2,10 @@
 *Delicious Lacto-Fermented Red Onions recipe*
 
 !!! info "Recipe Details"
-    *   **Yield:** ** 1 Quart Jar
-    *   **Prep time:** ** ~15 mins
+    *   **Yield:** 1 Quart Jar
+    *   **Prep time:** ~15 mins
     *   **Texture target:** TBD
-    *   **Cook time:** ** 0 mins (Fermentation: 5-7 days)
+    *   **Cook time:** 0 mins (Fermentation: 5-7 days)
 
 ## Ingredients
 **For 1 quart jar:**

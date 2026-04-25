@@ -2,10 +2,10 @@
 *Delicious Full-Sour Pickles (Katz's Deli Style) recipe*
 
 !!! info "Recipe Details"
-    *   **Yield:** ** 2 Quart Jars
-    *   **Prep time:** ** ~20 mins
+    *   **Yield:** 2 Quart Jars
+    *   **Prep time:** ~20 mins
     *   **Texture target:** TBD
-    *   **Cook time:** ** 0 mins (Fermentation: 10-14 days)
+    *   **Cook time:** 0 mins (Fermentation: 10-14 days)
 
 ## Ingredients
 **For 1 lb cucumbers (split between 2 jars):**
