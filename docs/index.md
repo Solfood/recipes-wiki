@@ -40,7 +40,7 @@ Welcome to our family cookbook. This living library is where we keep our favorit
 </div>
 
 ## 🆕 How to Add a Recipe
-We have a new wizard! Just run:
-```bash
-./new_recipe.sh
-```
+
+**Option 1 — In-browser form:** Use the [Recipe Builder](add-recipe.md) to fill in a form and generate ready-to-paste markdown.
+
+**Option 2 — Terminal wizard:** Run `./new_recipe.sh` to create the file automatically via an interactive CLI prompt.
