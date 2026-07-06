@@ -1,5 +1,5 @@
 site_name: Recipe Wiki
-site_url: https://solfood.github.io/recipes-wiki/
+site_url: http://recipes.local:8082/
 repo_url: https://github.com/Solfood/recipes-wiki
 repo_name: Solfood/recipes-wiki
 edit_uri: edit/main/docs/
