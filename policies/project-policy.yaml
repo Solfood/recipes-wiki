@@ -1,0 +1,34 @@
+project_name: "recipes-wiki"
+marker_prefix: "RW"
+owner: "Solfood"
+repo_url: "https://github.com/Solfood/recipes-wiki"
+tech_stack: "Python 3, MkDocs Material 9+, mkdocs-git-revision-date-localized"
+deployment_env: "GitHub Pages (site/)"
+
+tracks:
+  - ARCH   # architecture decisions
+  - DATA   # recipe content structure and taxonomy
+  - DX     # developer experience and tooling (scripts, CI)
+  - FIX    # bug fixes and content corrections
+
+suite:
+  - name: "bluray"
+    url: "https://github.com/Solfood/bluray"
+    relationship: "sibling GitHub Pages app — same owner, shared deployment pattern"
+  - name: "Willowbrook"
+    url: "https://github.com/Solfood/Willowbrook"
+    relationship: "sibling GitHub Pages app — same owner, shared deployment pattern"
+
+risk_tolerance: "low"
+critical_assets:
+  - "recipe_content"      # the markdown recipe files in docs/
+compliance_requirements: []
+blocking_severities:
+  - "critical"
+  - "high"
+mandatory_gates:
+  - "coherence"
+  - "engineering_fundamentals"
+  - "verification"
+  - "safety"
+  - "release_readiness"
