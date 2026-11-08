@@ -32,3 +32,15 @@ Append-only continuity log.
 - Open issues/blockers: None.
 - Next actions: Add recipes to the poultry category (currently empty). Consider standardizing "TBD" texture-target fields as recipes are updated.
 - References: Plan file `alright-let-s-look-for-tranquil-star.md`
+
+---
+
+### 2026-11-08 - Session 3
+
+- Markers: `RW-DATA-0001`
+- Objective: Add Guinness Beef Stew recipe; user cooks it with tri-tip, so document substitute cuts.
+- Work completed: Added `docs/recipes/beef/guinness-beef-stew.md` (template format, metric) with a Cut Options table and tri-tip timing warning. Regenerated category indexes.
+- Verification: `mkdocs build --strict` passed (Documentation built in 2.68 seconds, no warnings beyond git-revision timestamps on uncommitted indexes).
+- Decisions made: None (low risk content addition).
+- Open issues/blockers: None.
+- Next actions: Poultry category still empty.

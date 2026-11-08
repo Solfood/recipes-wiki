@@ -19,6 +19,7 @@
 | RW-DX-0004 | Improve generate_category_indexes.py | DONE | low | — | 2026-04-25 |
 | RW-ARCH-0001 | Enable git-revision-date-localized plugin | DONE | low | — | 2026-04-25 |
 | RW-ARCH-0002 | Align Python version across workflows | DONE | low | RW-DX-0002 | 2026-04-25 |
+| RW-DATA-0001 | Add Guinness Beef Stew recipe with cut options | DONE | low | — | 2026-11-08 |
 
 ## Dropped
 
