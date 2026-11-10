@@ -44,3 +44,20 @@ Append-only continuity log.
 - Decisions made: None (low risk content addition).
 - Open issues/blockers: None.
 - Next actions: Poultry category still empty.
+
+---
+
+### 2026-11-10 - Session 4
+
+- Markers: `RW-ARCH-0003`, `RW-DATA-0002`
+- Objective: Replace the MkDocs site with Mealie (DEC-0002), importing every recipe without loss.
+- Work completed:
+  - **RW-DATA-0002**: `scripts/import_to_mealie.py` (stdlib only) parses the 10 recipes and creates/overwrites them in Mealie via its API. `--dry-run` prints the parsed JSON.
+  - **RW-ARCH-0003**: DEC-0002 written. Homelab branch `mealie` swaps `recipes-web` for Mealie v3.30.0 on `:8082`.
+- Verification:
+  - Dry-run word coverage: every word of every source file appears in that recipe's parsed output, except field labels mapped to fields (Yield/Prep/Cook time) and the `:gluten_free:` emoji code (tag "Gluten-Free" kept).
+  - Imported into a scratch Mealie v3.30.0 on the laptop (:9925): 10 recipes created; a second run overwrote them in place (still 10, same slugs). Read-back of guinness-beef-stew showed ingredient section titles, titled steps with the tri-tip callout as a blockquote, and the Cut Options table as a note.
+  - `mkdocs build` not run: no `docs/` content changed.
+- Decisions made: DEC-0002 (medium risk; threat model inside).
+- Open issues/blockers: cutover needs the homelab PR merged by the owner.
+- Next actions: stop `recipes-web`, merge the homelab PR, run the import against recipes.local:8082, change the default Mealie admin password, then mark RW-ARCH-0003 DONE and archive this repo (owner's call).

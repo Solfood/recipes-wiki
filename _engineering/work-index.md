@@ -6,7 +6,7 @@
 
 | ID | Title | Status | Priority | Parent refs | Updated |
 |---|---|---|---|---|---|
-| _none_ | | | | | |
+| RW-ARCH-0003 | Retire MkDocs site; recipes move to Mealie at recipes.local:8082 | IN_PROGRESS | high | DEC-0002 | 2026-11-10 |
 
 ## Completed
 
@@ -20,6 +20,7 @@
 | RW-ARCH-0001 | Enable git-revision-date-localized plugin | DONE | low | — | 2026-04-25 |
 | RW-ARCH-0002 | Align Python version across workflows | DONE | low | RW-DX-0002 | 2026-04-25 |
 | RW-DATA-0001 | Add Guinness Beef Stew recipe with cut options | DONE | low | — | 2026-11-08 |
+| RW-DATA-0002 | Import script: Markdown recipes → Mealie | DONE | high | RW-ARCH-0003, DEC-0002 | 2026-11-10 |
 
 ## Dropped
 
