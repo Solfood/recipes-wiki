@@ -61,3 +61,6 @@ Append-only continuity log.
 - Decisions made: DEC-0002 (medium risk; threat model inside).
 - Open issues/blockers: cutover needs the homelab PR merged by the owner.
 - Next actions: stop `recipes-web`, merge the homelab PR, run the import against recipes.local:8082, change the default Mealie admin password, then mark RW-ARCH-0003 DONE and archive this repo (owner's call).
+- Cutover (same session): homelab PR #91 merged; deploy green; `recipes-web` removed beforehand. Import run against the live Mealie (http://192.168.4.105:8082): 10 recipes, slugs match the scratch run, no duplicates. `update.sh check` UP-TO-DATE; mealie container healthy. RW-ARCH-0003 DONE.
+- Note: `recipes.local` takes ~5 s to resolve from the Mac (mDNS), so run the import against the IP.
+- Remaining owner actions: change Mealie's default admin login; optionally archive this repo on GitHub.
